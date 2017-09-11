@@ -5,11 +5,11 @@
   SELECT id,name FROM student
 
 #### 去重筛选
-  SELECT DISTINCT 列名称 FROM 表名称
+  SELECT DISTINCT 列名称 FROM 表名称  
   SELECT DISTINCT id,name FROM 表名称
 
 #### 利用操作符进行筛选
-  SELECT * FROM WHERE 列名='具体的值' 
+  SELECT * FROM WHERE 列名='具体的值'  
   SELECT * FROM WHERE city='beijing'  
 **注意**  
 如果具体的值是 文本值 加单引号  
